@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class BMI {
     public static void main  (String[] args) {
     Scanner sc = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class Main {
       height *= height;
 
       double bmi = wight / height;
-        System.out.print("BMI : " + String.format("%.2f", bmi));
+        System.out.println("BMI : " + String.format("%.2f", bmi));
 
 	  System.out.print("Height : ");
          height = Integer.parseInt(sc.nextLine());
@@ -26,6 +26,6 @@ public class Main {
         height *= height;
 
         bmi = wight / height;
-        System.out.print("BMI : " + String.format("%.2f", bmi));
+        System.out.println("BMI : " + String.format("%.2f", bmi));
 }
     }
